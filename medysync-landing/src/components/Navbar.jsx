@@ -32,12 +32,13 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-teal-400 to-teal-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-display font-bold text-sm">M</span>
+            <div className="flex items-center gap-2">
+              <img src="/favicon-32x32.png" alt="MedySync logo" className="h-9 w-9 object-contain" />
+              <span style={{ fontFamily: "'Playfair Display', serif", fontWeight: 700, fontSize: '1.3rem' }}>
+                <span style={{ color: '#ffffff' }}>Medy</span>
+                <span style={{ color: '#E8C96A' }}>Sync</span>
+              </span>
             </div>
-            <span className="font-display font-bold text-xl text-white">
-              Medy<span className="gradient-text-gold">sync</span>
-            </span>
           </div>
 
           {/* Desktop links */}

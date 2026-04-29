@@ -62,6 +62,8 @@ export default function CTA() {
               className="relative space-y-4 max-w-lg mx-auto"
             >
               <input
+                name="nombre"
+                id="nombre"
                 type="text"
                 placeholder="Tu nombre"
                 value={form.nombre}
@@ -69,6 +71,8 @@ export default function CTA() {
                 className="w-full px-5 py-4 bg-white/8 border border-white/15 rounded-2xl text-white placeholder-white/30 text-sm focus:outline-none focus:border-teal-400 transition-colors"
               />
               <input
+                name="clinica"
+                id="clinica"
                 type="text"
                 placeholder="Nombre de tu clínica"
                 value={form.clinica}
@@ -76,6 +80,8 @@ export default function CTA() {
                 className="w-full px-5 py-4 bg-white/8 border border-white/15 rounded-2xl text-white placeholder-white/30 text-sm focus:outline-none focus:border-teal-400 transition-colors"
               />
               <input
+                name="email"
+                id="email"
                 type="email"
                 placeholder="Tu correo electrónico"
                 value={form.email}

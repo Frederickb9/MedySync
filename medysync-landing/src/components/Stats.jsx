@@ -12,7 +12,7 @@ function StatItem({ end, suffix, label, icon }) {
   return (
     <div ref={ref} className="text-center group">
       <div className="text-3xl mb-3 group-hover:scale-110 transition-transform duration-300">{icon}</div>
-      <div className="font-display text-5xl lg:text-6xl font-bold text-white mb-2">
+      <div className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-2">
         {count}{suffix}
       </div>
       <p className="text-white/50 text-sm font-medium">{label}</p>
